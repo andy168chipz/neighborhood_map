@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+ul{
+    color:#c7cfdb;
+    transition: 0.3s;
+    font-size: initial;
+}
+
+li:hover{
+    font-size: 18px;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+#map {
+    height: 100%;
+    width: 100%
+}
+
+.full-height {
+    height: 50%;
+}
+
+.app{
+    height: 100%;
+    background-color: #46618c;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+#error{
+    color: red;
+}
+
+@media screen and (min-width: 992px) {
+    .full-height {
+        height: 100%;
+        padding: 0px;
+    }
+}
