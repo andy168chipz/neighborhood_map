@@ -69,6 +69,8 @@ MapController = {
                 }
             });
             //for resizing, thanks to http://stackoverflow.com/questions/1556921/google-map-api-v3-set-bounds-and-center
+
+
             var bounds = new google.maps.LatLngBounds({lat:37.7329743, lng:-122.5028407},{lat:37.8058723, lng: -122.4006286});
             map.fitBounds(bounds);
             ko.applyBindings(new ViewModel());

@@ -1,14 +1,16 @@
-body, html {
+body,
+html {
     height: 100%;
     width: 100%;
 }
-ul{
-    color:#c7cfdb;
+
+ul {
+    color: #c7cfdb;
     transition: 0.3s;
     font-size: initial;
 }
 
-li:hover{
+li:hover {
     font-size: 18px;
     transition: 0.3s;
     text-decoration: underline;
@@ -28,17 +30,17 @@ li:hover{
     height: 50%;
 }
 
-.app{
+.app {
     height: 100%;
     background-color: #46618c;
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
 }
 
-#error{
+#error {
     color: red;
 }
 
